@@ -1,7 +1,8 @@
 {
     "log": {
         "disabled": false,
-        "level": "info",
+        "level": "warn",
+        "output": "/tmp/sing-box.log",
         "timestamp": true
     },
     "experimental": {

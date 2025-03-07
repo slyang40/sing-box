@@ -444,17 +444,10 @@
         ],
         "rule_set": [
             {
-                "tag": "geosite-chat",
+                "tag": "geoip-google",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-chat-!cn.srs",
-                "download_detour": "🚀 节点选择"
-            },
-            {
-                "tag": "geosite-youtube",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs",
                 "download_detour": "🚀 节点选择"
             },
             {
@@ -464,13 +457,15 @@
                 "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs",
                 "download_detour": "🚀 节点选择"
             },
+            
             {
-                "tag": "geosite-github",
+                "tag": "geosite-youtube",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/github.srs",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
                 "download_detour": "🚀 节点选择"
             },
+            
             {
                 "tag": "geosite-telegram",
                 "type": "remote",
@@ -479,17 +474,50 @@
                 "download_detour": "🚀 节点选择"
             },
             {
+                "tag": "geoip-telegram",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
+                "download_detour": "🚀 节点选择"
+            },
+            
+            {
+                "tag": "geosite-github",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/github.srs",
+                "download_detour": "🚀 节点选择"
+            },
+
+            {
                 "tag": "geosite-tiktok",
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs",
                 "download_detour": "🚀 节点选择"
             },
+
             {
-                "tag": "geosite-netflix",
+                "tag": "geosite-whatsapp",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/whatsapp.srs",
+                "download_detour": "🚀 节点选择"
+            },
+            
+            {
+                "tag": "geosite-chat",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-chat-!cn.srs",
+                "download_detour": "🚀 节点选择"
+            },
+
+            {
+                "tag": "geoip-apple",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs",
                 "download_detour": "🚀 节点选择"
             },
             {
@@ -499,6 +527,22 @@
                 "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs",
                 "download_detour": "🚀 节点选择"
             },
+            
+            {
+                "tag": "geosite-netflix",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
+                "download_detour": "🚀 节点选择"
+            },
+            {
+                "tag": "geoip-netflix",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
+                "download_detour": "🚀 节点选择"
+            },
+            
             {
                 "tag": "geosite-microsoft",
                 "type": "remote",
@@ -513,6 +557,7 @@
                 "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/onedrive.srs",
                 "download_detour": "🚀 节点选择"
             },
+            
             {
                 "tag": "geosite-geolocation-!cn",
                 "type": "remote",
@@ -520,6 +565,7 @@
                 "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
                 "download_detour": "🚀 节点选择"
             },
+            
             {
                 "tag": "geosite-cn",
                 "type": "remote",
@@ -528,45 +574,18 @@
                 "download_detour": "🚀 节点选择"
             },
             {
-                "tag": "geosite-private",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs",
-                "download_detour": "🚀 节点选择"
-            },
-            {
-                "tag": "geoip-google",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs",
-                "download_detour": "🚀 节点选择"
-            },
-            {
-                "tag": "geoip-telegram",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
-                "download_detour": "🚀 节点选择"
-            },
-            {
-                "tag": "geoip-netflix",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
-                "download_detour": "🚀 节点选择"
-            },
-            {
-                "tag": "geoip-apple",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs",
-                "download_detour": "🚀 节点选择"
-            },
-            {
                 "tag": "geoip-cn",
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
+                "download_detour": "🚀 节点选择"
+            },
+            
+            {
+                "tag": "geosite-private",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs",
                 "download_detour": "🚀 节点选择"
             },
             {

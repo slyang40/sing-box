@@ -24,8 +24,8 @@
     
     "dns": {
         "servers": [
-            {"tag": "dns_direct", "address": "223.5.5.5", "strategy": "ipv4_only", "detour": "全球直连"},
-            {"tag": "dns_proxy", "type": "https", "server": "8.8.8.8", "server_port": 443, "path": "/dns-query", "strategy": "ipv4_only", "detour": "自动选择"}
+            {"tag": "dns_direct", "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "全球直连"},
+            {"tag": "dns_proxy", "address": "tls://8.8.8.8", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "自动选择"}
         ],
         
         "rules": [

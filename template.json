@@ -6,6 +6,13 @@
         "timestamp": true
     },
     
+    "ntp": {
+        "enabled": true,
+        "server": "192.168.30.3",
+        "server_port": 123,
+        "interval": "30m"
+    },
+    
     "experimental": {
         "clash_api": {
             "external_controller": "0.0.0.0:9095",

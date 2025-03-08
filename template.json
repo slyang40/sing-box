@@ -97,7 +97,6 @@
             {"clash_mode": "global", "outbound": "GLOBAL"},
             {"domain_suffix": ["yahoo.com", "tello.com", "paypal.com", "paypalobjects.com", "3gppnetwork.org", "mail.com"], "outbound": "美国自动"},
             {"domain_suffix": ["linkedin.com"], "outbound": "自动选择"},
-            {"domain_suffix": ["zoom.us", "nanshui.cc", "deepseek.com"], "outbound": "全球直连"},
             {"rule_set": "geosite-private", "outbound": "全球直连"},
             {"rule_set": "geosite-chat", "outbound": "OpenAI"},
             {"rule_set": "geosite-whatsapp", "outbound": "Whatsapp"},

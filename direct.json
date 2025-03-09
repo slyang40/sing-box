@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "checkip.synology.com",
+        "checkip.dyndns.org",
+        "checkipv6.synology.com",
+        "checkport.synology.com",
+        "ddns.synology.com",
+        "account.synology.com",
+        "global.quickconnect.cn",
+        "cnc.quickconnect.cn",
+        "cnlp.lp.cs.quickconnect.cn",
+        "cnp1.punch.cs.quickconnect.cn",
+        "cnp2.punch.cs.quickconnect.cn",
+        "signal1.cn.webrtc.quickconnect.cn",
+        "signal2.cn.webrtc.quickconnect.cn",
+        "cnr1.re.cs.quickconnect.cn",
+        "cnr2.re.cs.quickconnect.cn",
+        "cnr3.re.cs.quickconnect.cn",
+        "cnr5.re.cs.quickconnect.cn",
+        "cnr6.re.cs.quickconnect.cn",
+        "checkip.webrtc.quickconnect.cn",
+        "cnch.lp.cs.quickconnect.cn",
+        "nanshui.cc"        
+      ]
+    }
+  ]
+}

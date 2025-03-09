@@ -37,8 +37,8 @@
         
         "rules": [
             {"outbound": "any", "server": "dns_direct", "disable_cache": true},
-            {"clash_mode": "Direct", "server": "dns_direct"},
-            {"clash_mode": "Global", "server": "dns_proxy"},
+            {"clash_mode": "直连", "server": "dns_direct"},
+            {"clash_mode": "全局", "server": "dns_proxy"},
             {"rule_set": "geosite-cn", "action": "route", "server": "dns_direct"},
             {"rule_set": "geosite-gfw", "server": "dns_proxy"},
             {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy"}
@@ -94,8 +94,8 @@
         "rules": [
             {"action": "sniff"},
             {"protocol": "dns", "action": "hijack-dns"},
-            {"clash_mode": "direct", "outbound": "全球直连"},
-            {"clash_mode": "global", "outbound": "GLOBAL"},
+            {"clash_mode": "直连", "outbound": "全球直连"},
+            {"clash_mode": "全局", "outbound": "GLOBAL"},
             {"domain_suffix": ["yahoo.com", "tello.com", "paypal.com", "paypalobjects.com", "3gppnetwork.org", "mail.com"], "outbound": "美国自动"},
             {"domain_suffix": ["linkedin.com"], "outbound": "自动选择"},
             {"rule_set": "geosite-private", "outbound": "全球直连"},

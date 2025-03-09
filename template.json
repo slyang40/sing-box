@@ -145,7 +145,7 @@
             {"tag": "geosite-private", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs", "download_detour": "自动选择"},
             {"tag": "geoip-private", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/private.srs", "download_detour": "自动选择" },
 
-            {"tag": "geosite-gfw", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/gfw.srs", "download_detour": "自动选择" }
+            {"tag": "geosite-gfw", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/gfw.srs", "download_detour": "自动选择" },
             {"tag": "geosite-direct", "type": "remote", "format": "source", "url": "https://raw.githubusercontent.com/slyang40/sing-box/refs/heads/main/direct.json", "download_detour": "自动选择" }
         ]
     }

@@ -44,7 +44,7 @@
             {"rule_set": "geosite-geolocation-!cn", "action": "route", "server": "dns_proxy"}
         ],
 
-        "disable_cache": true,
+        "disable_cache": false,
         "final": "dns_proxy",
         "strategy": "ipv4_only"
     },

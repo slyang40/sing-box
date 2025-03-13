@@ -56,8 +56,7 @@
             "mtu": 1500,
             "auto_route": true,
             "auto_redirect": true,
-            "strict_route": true,
-            "stack": "system"
+            "stack": "gvisor"
         }
     ],
     

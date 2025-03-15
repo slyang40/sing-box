@@ -62,22 +62,19 @@
                     "address": "192.168.40.2/32",
                     "port": 41820,
                     "public_key": "GaHvnaRfb7IGTSa2gWFwWPPhla9TsQl+L4zfIygagB4=",
-                    "allowed_ips": ["192.168.40.2/32"],
-                    "persistent_keepalive_interval": 25
+                    "allowed_ips": ["192.168.40.2/32"]
                 },
                 {
                     "address": "192.168.40.3/32",
                     "port": 41820,
                     "public_key": "0uYn2Gg506xbSXXKA/5EEq56MgVi6huqJuEYgWk4YlY=",
-                    "allowed_ips": ["192.168.40.3/32"],
-                    "persistent_keepalive_interval": 25
+                    "allowed_ips": ["192.168.40.3/32"]
                 },
                 {
                     "address": "192.168.40.4/32",
                     "port": 41820,
                     "public_key": "GStdx2NPRmA1drZG5NwRfyJPVaaXQ0YdfbCkN4S+uXk=",
-                    "allowed_ips": ["192.168.40.4/32"],
-                    "persistent_keepalive_interval": 25
+                    "allowed_ips": ["192.168.40.4/32"]
                 }
             ]
         }

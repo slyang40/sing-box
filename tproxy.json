@@ -58,6 +58,8 @@
             "address": ["192.168.40.1/32"],
             "private_key": "0BDVVWF/vnQ+D4hLdrWEiO+D5Skh4dowwgUYdkogwn8=",
             "listen_port": 41820,
+            "mtu": 9000,
+            "network": "udp",            
             "peers": [
                 {
                     "address": "192.168.40.2/32",

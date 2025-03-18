@@ -148,7 +148,7 @@
             {"rule_set": "geosite-onedrive", "outbound": "OneDrive"},
             {"rule_set": "geosite-microsoft", "outbound": "Microsoft"},
             {"rule_set": "geosite-gfw", "outbound": "自动选择"},
-            {"rule_set": "geoip-netease", "outbound": "全球直连"},
+            {"rule_set": "geosite-netease", "outbound": "全球直连"},
             {"rule_set": ["geoip-cn", "geosite-cn"], "outbound": "全球直连"},
             {"rule_set": "geosite-geolocation-!cn", "outbound": "自动选择"}
         ],

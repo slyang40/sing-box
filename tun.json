@@ -32,7 +32,7 @@
     "dns": {
         "servers": [
             {"tag": "dns_direct", "type": "https", "server": "223.5.5.5", "detour": "全球直连"},
-            {"tag": "dns_proxy", "type": "https", "address": "8.8.8.8", "detour": "自动选择"}
+            {"tag": "dns_proxy", "type": "https", "server": "8.8.8.8", "detour": "自动选择"}
         ],
         
         "rules": [

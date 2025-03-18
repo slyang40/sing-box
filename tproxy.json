@@ -45,7 +45,6 @@
         ],
 
         "disable_cache": false,
-        "client_subnet": "116.3.192.108",
         "final": "dns_proxy",
         "strategy": "ipv4_only"
     },

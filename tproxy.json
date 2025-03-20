@@ -128,7 +128,7 @@
         "rules": [
             {"action": "sniff"},
             {"protocol": "dns", "action": "hijack-dns"},
-            {"protocol": "quic", "action": "reject"},
+            {"network": "udp", "port": 443, "action": "reject"},
             {"ip_cidr": ["5.5.5.5"], "action": "reject", "method": "drop"},
             {"ip_cidr": ["208.67.222.222"], "action": "reject", "method": "drop"},
             {"clash_mode": "直连", "outbound": "全球直连"},

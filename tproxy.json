@@ -129,14 +129,43 @@
             {"action": "sniff"},
             {"protocol": "dns", "action": "hijack-dns"},
             {"network": "udp", "port": 443, "action": "reject"},
+            
             {"ip_cidr": ["5.5.5.5"], "action": "reject", "method": "drop"},
             {"ip_cidr": ["208.67.222.222"], "action": "reject", "method": "drop"},
+            {"ip_cidr": ["47.238.69.2"], "outbound": "全球直连"},
+            
             {"clash_mode": "直连", "outbound": "全球直连"},
             {"clash_mode": "全局", "outbound": "GLOBAL"},
-            {"domain_suffix": ["yahoo.com", "tello.com", "paypal.com", "paypalobjects.com", "3gppnetwork.org", "mail.com"], "outbound": "美国自动"},
-            {"domain_suffix": ["checkip.synology.com", "checkip.dyndns.org", "checkipv6.synology.com", "checkport.synology.com", "ddns.synology.com"], "outbound": "全球直连"},
-            {"domain_suffix": ["linkedin.com"], "outbound": "自动选择"},
-            {"domain_suffix": ["nanshui.cc"], "outbound": "全球直连"},
+            
+            {
+                "domain_suffix": [
+                    "yahoo.com", 
+                    "tello.com", 
+                    "paypal.com", 
+                    "paypalobjects.com", 
+                    "3gppnetwork.org", 
+                    "mail.com"
+                ], 
+                "outbound": "美国自动"
+            },
+            {
+                "domain_suffix": [
+                    "linkedin.com"
+                ], 
+                "outbound": "自动选择"
+            },
+            {
+                "domain_suffix": [
+                    "checkip.synology.com", 
+                    "checkip.dyndns.org", 
+                    "checkipv6.synology.com", 
+                    "checkport.synology.com", 
+                    "ddns.synology.com",
+                    "nanshui.cc"
+                ],
+                "outbound": "全球直连"
+            },
+            
             {"rule_set": "geosite-private", "outbound": "全球直连"},
             {"rule_set": "geoip-private", "outbound": "全球直连"},
             {"rule_set": "geosite-chat", "outbound": "OpenAI"},

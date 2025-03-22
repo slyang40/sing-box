@@ -134,7 +134,7 @@
             {"clash_mode": "直连", "outbound": "全球直连"},
             {"clash_mode": "全局", "outbound": "GLOBAL"},
             {"domain_suffix": ["yahoo.com", "tello.com", "paypal.com", "paypalobjects.com", "3gppnetwork.org", "mail.com"], "outbound": "美国自动"},
-            {"domain_suffix": ["linkedin.com", "nanshui.cc"], "outbound": "自动选择"},
+            {"domain_suffix": ["linkedin.com"], "outbound": "自动选择"},
             {"rule_set": "geosite-private", "outbound": "全球直连"},
             {"rule_set": "geoip-private", "outbound": "全球直连"},
             {"rule_set": "geosite-chat", "outbound": "OpenAI"},
